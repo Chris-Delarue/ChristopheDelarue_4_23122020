@@ -90,6 +90,10 @@ a:hover {
     right: 0;
 }
 
+.texture-paper::before {
+    background: url("img/texture-paper.png");
+    background-size: 280px 280px;
+}
 
 
 .b-parallax {
@@ -377,6 +381,29 @@ a:hover {
 .col-sm-4{
     width: 100%;
 }
+.icon-md{
+    color:#000000 !important;
+}
+.icon-md.text1:hover::before{
+    cursor: pointer;
+    content:"Twitter";
+    font-size:30px;
+}
+.icon-md.text2:hover::before{
+    cursor:pointer;
+    content:"Facebook";
+    font-size:30px;
+}
+.icon-md.text3:hover::before{
+    cursor:pointer;
+    content:"Dribble";
+    font-size:30px;
+}
+.icon-md.text4:hover::before{
+    cursor:pointer;
+    content:"Instagram";
+    font-size:30px;
+}
 
 .partenaires{
     display:flex;
@@ -392,10 +419,13 @@ a:hover {
     text-align: center;
     margin-left:0;
     padding:0;
+    
 }
+
 .partenaires > h3{
     text-align: center;
     max-width:100%;
+    color: black !important;
 }
  /* end rajout css*/
 
@@ -724,6 +754,7 @@ p {
     max-width: 650px;
     margin: auto auto auto auto;
 }
+/* end*/
 
 .h1 {
     font-size: 20px;
@@ -732,14 +763,12 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color : #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
 }
-
-
 
 h2 {
     font-size: 22px;
@@ -772,8 +801,8 @@ h4 {
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -788,11 +817,16 @@ h4 {
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
+/* changement de couleur WCAG 2 AA COMPLIANT */
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color:#503915;
     padding: 40px 40px 40px 40px;
 }
+.bgc-atomic-brown{
+    background-color:#503915;
+}
+
 
 .bold-link {
     font-weight: 900;
@@ -808,7 +842,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#F3976C;
 }
 
 .tc-yellow {
@@ -817,7 +851,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
