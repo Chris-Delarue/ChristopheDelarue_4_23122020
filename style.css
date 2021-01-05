@@ -90,10 +90,7 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
-}
+
 
 .b-parallax {
     background-attachment: fixed;
@@ -369,15 +366,18 @@ a:hover {
 .col-sm-3{
     display:inline-block;
 }
+
+.social{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    margin-top:5%;
+}
+
 .col-sm-4{
     width: 100%;
 }
-.social{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top:5%;
-   
-}
+
 .partenaires{
     display:flex;
     flex-flow: column wrap;
