@@ -92,7 +92,7 @@ a:hover {
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    background-size: 280w;
 }
 
 
@@ -312,7 +312,7 @@ a:hover {
 }
 
 .navbar-brand img[src$=svg] {
-    min-width: 100px;
+    min-width: 100w;
 }
 
 .nav-center .navbar-brand img {
@@ -826,7 +826,7 @@ h4 {
 .bgc-atomic-brown{
     background-color:#503915;
 }
-
+/* end*/
 
 .bold-link {
     font-weight: 900;
@@ -856,7 +856,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
