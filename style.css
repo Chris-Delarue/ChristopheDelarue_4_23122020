@@ -362,6 +362,9 @@ a:hover {
 .icon-md{
     color:#000000 !important;
 }
+.hide-text{
+    display: none;
+}
 .icon-md.text1:hover::before{
     cursor: pointer;
     content:"Twitter";
