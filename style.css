@@ -377,7 +377,7 @@ a:hover {
 }
 .icon-md.text3:hover::before{
     cursor:pointer;
-    content:"Dribble";
+    content:"Dribbble";
     font-size:30px;
 }
 .icon-md.text4:hover::before{
