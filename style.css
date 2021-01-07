@@ -365,6 +365,7 @@ a:hover {
 .hide-text{
     display: none;
 }
+
 .icon-md.text1:hover::before{
     cursor: pointer;
     content:"Twitter";
@@ -810,6 +811,9 @@ h4 {
     background-color:#503915;
     padding: 40px 40px 40px 40px;
     opacity:0.8;
+    width: fit-content;
+    margin:auto;
+    font-size:20px;
 }
 .bgc-atomic-brown{
     background-color:#503915;
