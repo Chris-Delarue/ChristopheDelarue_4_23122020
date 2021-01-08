@@ -250,7 +250,7 @@ a:hover {
 }
 
 .voffset {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .voffset-lg {
@@ -352,7 +352,7 @@ a:hover {
     position: relative;
     z-index: 2;
 }
-/* rajout css*/
+/* Added css*/
 
 .col-sm-3{
     display:inline-block;
@@ -422,7 +422,7 @@ a:hover {
     color: black !important;
 }
 
- /* end rajout css*/
+ /* end added css*/
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -768,7 +768,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
