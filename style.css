@@ -357,6 +357,11 @@ a:hover {
 .col-sm-3{
     display:inline-block;
 }
+.text-center .text-edit{
+    font-size:15px;
+    color:black;
+    line-height: 2rem;
+}
 
 .social{
     display: flex;
