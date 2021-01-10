@@ -1,1 +1,4 @@
-https://chris-delarue.github.io/La-Chouette-agence/
+
+User-agent : *
+Allow: 
+https://chris-delarue.github.io/La-Chouette-agence/index.html
